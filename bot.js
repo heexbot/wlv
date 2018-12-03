@@ -6,9 +6,9 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("500838241784823814");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`__WELCOME TO DESERT__ `), 4000)        
-
+setTimeout(() => mohamed.send(`*WELCOME TO DESERT*`), 4000)        
+}
 });
 
 
-cient.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
